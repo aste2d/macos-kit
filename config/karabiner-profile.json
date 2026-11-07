@@ -46,11 +46,14 @@
                   "^com\\.youqu\\.ToDesk.*$",
                   "^com\\.oray\\.sunlogin.*$",
                   "^net\\.java\\.openjdk\\.cmd$",
-                  "^org\\.lwjgl\\..*$"
+                  "^org\\.lwjgl\\..*$",
+                  "^com\\.netease\\.uuremote$",
+                  "^com\\.google\\.Chrome(?:\\.(?:canary|beta|dev))?\\.app\\.(?:.+-)?(?:cmkncekebbebpfilplodngbpllndjkfo|inomeogfingihgjfjlpeplalcfajhgai)$"
                 ],
                 "file_paths": [
                   "/bin/java$",
-                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$"
+                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$",
+                  "/(UURemote|UU远程|网易UU远程|Chrome Remote Desktop|Chrome 远程桌面|Chrome 遠端桌面)\\.app/Contents/MacOS/[^/]+$"
                 ]
               },
               {
@@ -100,11 +103,14 @@
                   "^com\\.youqu\\.ToDesk.*$",
                   "^com\\.oray\\.sunlogin.*$",
                   "^net\\.java\\.openjdk\\.cmd$",
-                  "^org\\.lwjgl\\..*$"
+                  "^org\\.lwjgl\\..*$",
+                  "^com\\.netease\\.uuremote$",
+                  "^com\\.google\\.Chrome(?:\\.(?:canary|beta|dev))?\\.app\\.(?:.+-)?(?:cmkncekebbebpfilplodngbpllndjkfo|inomeogfingihgjfjlpeplalcfajhgai)$"
                 ],
                 "file_paths": [
                   "/bin/java$",
-                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$"
+                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$",
+                  "/(UURemote|UU远程|网易UU远程|Chrome Remote Desktop|Chrome 远程桌面|Chrome 遠端桌面)\\.app/Contents/MacOS/[^/]+$"
                 ]
               },
               {
@@ -154,11 +160,14 @@
                   "^com\\.youqu\\.ToDesk.*$",
                   "^com\\.oray\\.sunlogin.*$",
                   "^net\\.java\\.openjdk\\.cmd$",
-                  "^org\\.lwjgl\\..*$"
+                  "^org\\.lwjgl\\..*$",
+                  "^com\\.netease\\.uuremote$",
+                  "^com\\.google\\.Chrome(?:\\.(?:canary|beta|dev))?\\.app\\.(?:.+-)?(?:cmkncekebbebpfilplodngbpllndjkfo|inomeogfingihgjfjlpeplalcfajhgai)$"
                 ],
                 "file_paths": [
                   "/bin/java$",
-                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$"
+                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$",
+                  "/(UURemote|UU远程|网易UU远程|Chrome Remote Desktop|Chrome 远程桌面|Chrome 遠端桌面)\\.app/Contents/MacOS/[^/]+$"
                 ]
               },
               {
@@ -208,11 +217,14 @@
                   "^com\\.youqu\\.ToDesk.*$",
                   "^com\\.oray\\.sunlogin.*$",
                   "^net\\.java\\.openjdk\\.cmd$",
-                  "^org\\.lwjgl\\..*$"
+                  "^org\\.lwjgl\\..*$",
+                  "^com\\.netease\\.uuremote$",
+                  "^com\\.google\\.Chrome(?:\\.(?:canary|beta|dev))?\\.app\\.(?:.+-)?(?:cmkncekebbebpfilplodngbpllndjkfo|inomeogfingihgjfjlpeplalcfajhgai)$"
                 ],
                 "file_paths": [
                   "/bin/java$",
-                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$"
+                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$",
+                  "/(UURemote|UU远程|网易UU远程|Chrome Remote Desktop|Chrome 远程桌面|Chrome 遠端桌面)\\.app/Contents/MacOS/[^/]+$"
                 ]
               },
               {
@@ -262,11 +274,14 @@
                   "^com\\.youqu\\.ToDesk.*$",
                   "^com\\.oray\\.sunlogin.*$",
                   "^net\\.java\\.openjdk\\.cmd$",
-                  "^org\\.lwjgl\\..*$"
+                  "^org\\.lwjgl\\..*$",
+                  "^com\\.netease\\.uuremote$",
+                  "^com\\.google\\.Chrome(?:\\.(?:canary|beta|dev))?\\.app\\.(?:.+-)?(?:cmkncekebbebpfilplodngbpllndjkfo|inomeogfingihgjfjlpeplalcfajhgai)$"
                 ],
                 "file_paths": [
                   "/bin/java$",
-                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$"
+                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$",
+                  "/(UURemote|UU远程|网易UU远程|Chrome Remote Desktop|Chrome 远程桌面|Chrome 遠端桌面)\\.app/Contents/MacOS/[^/]+$"
                 ]
               },
               {
@@ -316,11 +331,14 @@
                   "^com\\.youqu\\.ToDesk.*$",
                   "^com\\.oray\\.sunlogin.*$",
                   "^net\\.java\\.openjdk\\.cmd$",
-                  "^org\\.lwjgl\\..*$"
+                  "^org\\.lwjgl\\..*$",
+                  "^com\\.netease\\.uuremote$",
+                  "^com\\.google\\.Chrome(?:\\.(?:canary|beta|dev))?\\.app\\.(?:.+-)?(?:cmkncekebbebpfilplodngbpllndjkfo|inomeogfingihgjfjlpeplalcfajhgai)$"
                 ],
                 "file_paths": [
                   "/bin/java$",
-                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$"
+                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$",
+                  "/(UURemote|UU远程|网易UU远程|Chrome Remote Desktop|Chrome 远程桌面|Chrome 遠端桌面)\\.app/Contents/MacOS/[^/]+$"
                 ]
               },
               {
@@ -370,11 +388,14 @@
                   "^com\\.youqu\\.ToDesk.*$",
                   "^com\\.oray\\.sunlogin.*$",
                   "^net\\.java\\.openjdk\\.cmd$",
-                  "^org\\.lwjgl\\..*$"
+                  "^org\\.lwjgl\\..*$",
+                  "^com\\.netease\\.uuremote$",
+                  "^com\\.google\\.Chrome(?:\\.(?:canary|beta|dev))?\\.app\\.(?:.+-)?(?:cmkncekebbebpfilplodngbpllndjkfo|inomeogfingihgjfjlpeplalcfajhgai)$"
                 ],
                 "file_paths": [
                   "/bin/java$",
-                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$"
+                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$",
+                  "/(UURemote|UU远程|网易UU远程|Chrome Remote Desktop|Chrome 远程桌面|Chrome 遠端桌面)\\.app/Contents/MacOS/[^/]+$"
                 ]
               },
               {
@@ -424,11 +445,14 @@
                   "^com\\.youqu\\.ToDesk.*$",
                   "^com\\.oray\\.sunlogin.*$",
                   "^net\\.java\\.openjdk\\.cmd$",
-                  "^org\\.lwjgl\\..*$"
+                  "^org\\.lwjgl\\..*$",
+                  "^com\\.netease\\.uuremote$",
+                  "^com\\.google\\.Chrome(?:\\.(?:canary|beta|dev))?\\.app\\.(?:.+-)?(?:cmkncekebbebpfilplodngbpllndjkfo|inomeogfingihgjfjlpeplalcfajhgai)$"
                 ],
                 "file_paths": [
                   "/bin/java$",
-                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$"
+                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$",
+                  "/(UURemote|UU远程|网易UU远程|Chrome Remote Desktop|Chrome 远程桌面|Chrome 遠端桌面)\\.app/Contents/MacOS/[^/]+$"
                 ]
               },
               {
@@ -478,11 +502,14 @@
                   "^com\\.youqu\\.ToDesk.*$",
                   "^com\\.oray\\.sunlogin.*$",
                   "^net\\.java\\.openjdk\\.cmd$",
-                  "^org\\.lwjgl\\..*$"
+                  "^org\\.lwjgl\\..*$",
+                  "^com\\.netease\\.uuremote$",
+                  "^com\\.google\\.Chrome(?:\\.(?:canary|beta|dev))?\\.app\\.(?:.+-)?(?:cmkncekebbebpfilplodngbpllndjkfo|inomeogfingihgjfjlpeplalcfajhgai)$"
                 ],
                 "file_paths": [
                   "/bin/java$",
-                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$"
+                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$",
+                  "/(UURemote|UU远程|网易UU远程|Chrome Remote Desktop|Chrome 远程桌面|Chrome 遠端桌面)\\.app/Contents/MacOS/[^/]+$"
                 ]
               },
               {
@@ -532,11 +559,14 @@
                   "^com\\.youqu\\.ToDesk.*$",
                   "^com\\.oray\\.sunlogin.*$",
                   "^net\\.java\\.openjdk\\.cmd$",
-                  "^org\\.lwjgl\\..*$"
+                  "^org\\.lwjgl\\..*$",
+                  "^com\\.netease\\.uuremote$",
+                  "^com\\.google\\.Chrome(?:\\.(?:canary|beta|dev))?\\.app\\.(?:.+-)?(?:cmkncekebbebpfilplodngbpllndjkfo|inomeogfingihgjfjlpeplalcfajhgai)$"
                 ],
                 "file_paths": [
                   "/bin/java$",
-                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$"
+                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$",
+                  "/(UURemote|UU远程|网易UU远程|Chrome Remote Desktop|Chrome 远程桌面|Chrome 遠端桌面)\\.app/Contents/MacOS/[^/]+$"
                 ]
               },
               {
@@ -586,11 +616,14 @@
                   "^com\\.youqu\\.ToDesk.*$",
                   "^com\\.oray\\.sunlogin.*$",
                   "^net\\.java\\.openjdk\\.cmd$",
-                  "^org\\.lwjgl\\..*$"
+                  "^org\\.lwjgl\\..*$",
+                  "^com\\.netease\\.uuremote$",
+                  "^com\\.google\\.Chrome(?:\\.(?:canary|beta|dev))?\\.app\\.(?:.+-)?(?:cmkncekebbebpfilplodngbpllndjkfo|inomeogfingihgjfjlpeplalcfajhgai)$"
                 ],
                 "file_paths": [
                   "/bin/java$",
-                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$"
+                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$",
+                  "/(UURemote|UU远程|网易UU远程|Chrome Remote Desktop|Chrome 远程桌面|Chrome 遠端桌面)\\.app/Contents/MacOS/[^/]+$"
                 ]
               },
               {
@@ -640,11 +673,14 @@
                   "^com\\.youqu\\.ToDesk.*$",
                   "^com\\.oray\\.sunlogin.*$",
                   "^net\\.java\\.openjdk\\.cmd$",
-                  "^org\\.lwjgl\\..*$"
+                  "^org\\.lwjgl\\..*$",
+                  "^com\\.netease\\.uuremote$",
+                  "^com\\.google\\.Chrome(?:\\.(?:canary|beta|dev))?\\.app\\.(?:.+-)?(?:cmkncekebbebpfilplodngbpllndjkfo|inomeogfingihgjfjlpeplalcfajhgai)$"
                 ],
                 "file_paths": [
                   "/bin/java$",
-                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$"
+                  "/(Screen Sharing|Remote Desktop|Microsoft Remote Desktop|Windows App|AnyDesk|TeamViewer|RustDesk|Jump Desktop|Parsec|Moonlight|Splashtop Business|Splashtop Personal|VNC Viewer|TigerVNC Viewer|NoMachine|Screens|Screens 5|Royal TSX|ToDesk|SunloginClient|Sunlogin Client)\\.app/Contents/MacOS/[^/]+$",
+                  "/(UURemote|UU远程|网易UU远程|Chrome Remote Desktop|Chrome 远程桌面|Chrome 遠端桌面)\\.app/Contents/MacOS/[^/]+$"
                 ]
               },
               {

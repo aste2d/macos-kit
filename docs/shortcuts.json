@@ -279,6 +279,6 @@
     "keys": "F1–F12",
     "action": "标准功能键（Java / 远程控制）",
     "source": "Karabiner",
-    "note": "仅在匹配的应用前台生效；包括 F3。其他应用保留媒体键与 F3 → Fn。"
+    "note": "Java、UU 远程、Chrome Remote Desktop（PWA）及匹配的远程应用前台生效；包括 F3。其他应用保留原行为。"
   }
 ]
