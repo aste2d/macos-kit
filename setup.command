@@ -6,7 +6,7 @@ kit="${0:A:h}"
 case "${1:-}" in
   --apply|--services|--menu) ;;
   *) print -r -- 'aste2d macOS 整合包
-先阅读 README.md 并安装 Karabiner、Raycast v2。
+先阅读 README.md 并安装 Karabiner 与对应系统版本的 Raycast（macOS 15：v1；macOS 26+：v2）。
   ./setup.command --apply     启用 Hyper 与系统快捷键，安装 Hyper+Z 显示器工具
   ./setup.command --services  设置 Keka ⌃Space、Ghostty ⌃T 服务快捷键
 不传参数只显示说明。Raycast 的命令快捷键按 docs/raycast.md 设置。

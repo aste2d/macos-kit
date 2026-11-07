@@ -10,9 +10,16 @@
 
 ## 安装
 
-适用于 macOS 26 或更新版本。
+按系统版本选择 Raycast：
 
-1. 下载并安装下方所需软件。Hyper 快捷键需要 Karabiner-Elements；应用启动、窗口管理与剪贴板搜索需要 Raycast v2。
+| 系统版本 | Raycast 版本 |
+|---|---|
+| macOS 15（Sequoia） | **Raycast v1** |
+| macOS 26（Tahoe）及以上 | **Raycast v2**（Apple 芯片） |
+
+Raycast v2 的系统与芯片要求见[官方说明](https://www.raycast.com/new)。Intel Mac 使用 Raycast v1。其他软件请按各自下载页的系统要求选择版本。
+
+1. 下载并安装下方所需软件。Hyper 快捷键需要 Karabiner-Elements；应用启动、窗口管理与剪贴板搜索需要对应系统版本的 Raycast。
 2. 显示器检测工具需要 Apple Command Line Tools。尚未安装时运行 `xcode-select --install`，按系统提示完成安装。
 3. 在整合包目录运行 `zsh setup.command --apply`，启用键盘与系统快捷键。按应用提示授予所需权限；系统快捷键如未立即生效，注销后重新登录。
 4. 按 [Raycast 快捷键表](docs/raycast.md) 绑定应用和命令。主快捷键为 ⌘Space。
@@ -22,7 +29,8 @@
 
 | 软件 | 版本 | 官方下载 | 国内网络备用 |
 |---|---|---|---|
-| Raycast v2 | 2.11.1.0 | [官网](https://www.raycast.com/download) | 暂无核实的独立国内镜像，使用官网 |
+| Raycast v1（macOS 15） | 1.x | [官网 → Download V1](https://www.raycast.com/) | 使用官方渠道 |
+| Raycast v2（macOS 26+） | 2.11.1.0 | [官网](https://www.raycast.com/download) | 暂无核实的独立国内镜像，使用官网 |
 | Karabiner-Elements | 16.3.0 | [官方 DMG](https://github.com/pqrs-org/Karabiner-Elements/releases/download/v16.3.0/Karabiner-Elements-16.3.0.dmg) | [备用下载](https://gh-proxy.com/https://github.com/pqrs-org/Karabiner-Elements/releases/download/v16.3.0/Karabiner-Elements-16.3.0.dmg) |
 | Mac Mouse Fix | 3.1.0 | [官方 ZIP](https://github.com/noah-nuebling/mac-mouse-fix/releases/download/3.1.0/MacMouseFixApp.zip) | [备用下载](https://gh-proxy.com/https://github.com/noah-nuebling/mac-mouse-fix/releases/download/3.1.0/MacMouseFixApp.zip) |
 | Clash Verge Rev | 2.5.10 | [Apple 芯片](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.10/Clash.Verge_2.5.10_aarch64.dmg) · [Intel](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.10/Clash.Verge_2.5.10_x64.dmg) | **[Apple 芯片直链](https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.10/Clash.Verge_2.5.10_aarch64.dmg) · [Intel 直链](https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.10/Clash.Verge_2.5.10_x64.dmg)** |
