@@ -61,6 +61,8 @@ Clash Verge 可双击 `download-clash.command` 下载，也可在终端执行 `z
 
 **检测显示器**：按 Hyper+Z 后松开组合键，工具会打开系统“显示器”设置并执行“检测显示器”。需要辅助功能权限，目前支持简体中文和英文系统界面。硬件连接故障可能仍需检查连接线或电源。
 
+**鼠标滚轮**：通过一条 `Reverse mouse vertical scroll wheel` 复杂规则统一反转垂直滚轮。在 Karabiner 的 Devices 中启用需要接管的鼠标即可；设备单独的滚轮反转开关保持关闭，避免重复反转。水平滚轮和指针移动保持原方向。
+
 **文件服务**：在 Finder 中选择文件后，⌃Space 发送到 Keka；⌃T 在所选位置打开 Ghostty 窗口。服务只在适用的选择对象上显示。
 
 **可选菜单键**：`zsh setup.command --menu` 将 Tab 设为 Minimize 菜单快捷键，仅适用于提供该菜单项的应用。

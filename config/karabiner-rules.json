@@ -1077,6 +1077,27 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Reverse mouse vertical scroll wheel",
+      "manipulators": [
+        {
+          "type": "mouse_basic",
+          "flip": [
+            "vertical_wheel"
+          ],
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "is_pointing_device": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
