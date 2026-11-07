@@ -38,6 +38,9 @@ if [[ "$1" == --apply ]]; then
   cp "$work/karabiner.json" "${config}.new"
   mv "${config}.new" "$config"
   merge_domain com.apple.symbolichotkeys AppleSymbolicHotKeys "$kit/config/system-shortcuts.plist"
+  defaults export NSGlobalDomain "$backup/NSGlobalDomain.plist"
+  defaults write NSGlobalDomain com.apple.keyboard.fnState -bool false
+  [[ "$(defaults read NSGlobalDomain com.apple.keyboard.fnState)" == 0 ]] || { print -u2 "功能键模式设置失败"; exit 1; }
   print -r -- 'Hyper 配置已启用。系统快捷键可能需要注销并重新登录后生效。'
 elif [[ "$1" == --menu ]]; then
   defaults export NSGlobalDomain "$backup/NSGlobalDomain.plist"

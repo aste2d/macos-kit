@@ -265,14 +265,14 @@
   },
   {
     "keys": "Command ↔ Option",
-    "action": "交换左右 Command 与 Option",
+    "action": "外接键盘交换 Command 与 Option",
     "source": "Karabiner",
-    "note": "按键导航按交换后的逻辑修饰键标注。"
+    "note": "仅外接键盘；内置键盘保持原键位。"
   },
   {
-    "keys": "Print Screen",
-    "action": "Fn",
+    "keys": "F3",
+    "action": "Globe（Fn）",
     "source": "Karabiner",
-    "note": "适用于带有 Print Screen 键的键盘。"
+    "note": "单按 F3；标准 F1–F12 模式关闭。Print Screen 保持原功能。"
   }
 ]
