@@ -53,7 +53,7 @@ Clash Verge 可双击 `download-clash.command` 下载，也可在终端执行 `z
 | Hyper+V | 搜索剪贴板历史 |
 | Hyper+Enter | 切换深浅外观 |
 
-**按键位置**：仅外接键盘交换左右 Command 与 Option，内置键盘保持原键位。F3 映射为 Globe（Fn），Print Screen 保持原功能；“将 F1–F12 用作标准功能键”设为 Off。外接键盘互换规则位于 Karabiner 的 Complex Modifications，可单独关闭。
+**按键位置**：默认所有键盘交换左右 Command 与 Option；Apple 键盘作为例外，内置键盘及外接 Apple 键盘均保持原键位。F3 映射为 Globe（Fn），Print Screen 保持原功能；“将 F1–F12 用作标准功能键”设为 Off。键盘互换规则位于 Karabiner 的 Complex Modifications，可单独关闭。
 
 **智能简繁**：选中可编辑文字后按 Hyper+C。简体字较多时转繁体，繁体字较多时转简体；再次按下可反向转换。转换在本机完成。
 

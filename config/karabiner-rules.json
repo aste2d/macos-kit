@@ -257,7 +257,7 @@
       ]
     },
     {
-      "description": "Swap Command and Option on external keyboards only",
+      "description": "Swap Command and Option except on Apple keyboards",
       "manipulators": [
         {
           "type": "basic",
@@ -278,6 +278,12 @@
             {
               "type": "device_unless",
               "identifiers": [
+                {
+                  "vendor_id": 1452
+                },
+                {
+                  "vendor_id": 76
+                },
                 {
                   "is_built_in_keyboard": true
                 }
@@ -305,6 +311,12 @@
               "type": "device_unless",
               "identifiers": [
                 {
+                  "vendor_id": 1452
+                },
+                {
+                  "vendor_id": 76
+                },
+                {
                   "is_built_in_keyboard": true
                 }
               ]
@@ -331,6 +343,12 @@
               "type": "device_unless",
               "identifiers": [
                 {
+                  "vendor_id": 1452
+                },
+                {
+                  "vendor_id": 76
+                },
+                {
                   "is_built_in_keyboard": true
                 }
               ]
@@ -356,6 +374,12 @@
             {
               "type": "device_unless",
               "identifiers": [
+                {
+                  "vendor_id": 1452
+                },
+                {
+                  "vendor_id": 76
+                },
                 {
                   "is_built_in_keyboard": true
                 }
