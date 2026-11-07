@@ -55,6 +55,8 @@ Clash Verge 可双击 `download-clash.command` 下载，也可在终端执行 `z
 
 **按键位置**：默认所有键盘交换左右 Command 与 Option；Apple 键盘作为例外，内置键盘及外接 Apple 键盘均保持原键位。F3 映射为 Globe（Fn），Print Screen 保持原功能；“将 F1–F12 用作标准功能键”设为 Off。键盘互换规则位于 Karabiner 的 Complex Modifications，可单独关闭。
 
+**应用内功能键**：Minecraft / Java、屏幕共享、Apple Remote Desktop，以及常见远程控制客户端在前台时，F1–F12 直接发送标准功能键（包括 F3）。离开这些应用后恢复媒体键和 F3 → Fn。[支持的应用与扩展方法](docs/function-keys.md)。
+
 **智能简繁**：选中可编辑文字后按 Hyper+C。简体字较多时转繁体，繁体字较多时转简体；再次按下可反向转换。转换在本机完成。
 
 **检测显示器**：按 Hyper+Z 后松开组合键，工具会打开系统“显示器”设置并执行“检测显示器”。需要辅助功能权限，目前支持简体中文和英文系统界面。硬件连接故障可能仍需检查连接线或电源。
