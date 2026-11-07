@@ -12,7 +12,7 @@ upstream="https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v
 mkdir -p "$kit/Downloads"
 partial=$(mktemp "$kit/Downloads/.clash-download.XXXXXX")
 trap 'rm -f -- "$partial"' EXIT
-# Third-party accelerators; every download must match the upstream SHA-256.
+# Mirror links with upstream SHA-256 verification.
 for base in https://gh-proxy.com/ https://gh-proxy.org/ ''; do
   print -r -- "下载：${base}${upstream}"
   if curl --noproxy '*' --fail --location --connect-timeout 12 --max-time 600 --retry 1 --proto '=https' --proto-redir '=https' "${base}${upstream}" -o "$partial"; then
@@ -25,5 +25,5 @@ for base in https://gh-proxy.com/ https://gh-proxy.org/ ''; do
     print -u2 '校验不匹配，放弃此下载源。'
   fi
 done
-print -u2 '所有下载源均不可用，请稍后重试或查看官方发布页。未安装任何软件。'
+print -u2 '所有下载源均不可用，请稍后重试或查看官方发布页。'
 exit 1
