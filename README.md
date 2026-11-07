@@ -2,7 +2,7 @@
 
 让新 Mac 快速进入工作流的一套常用工具与键盘配置。用 Hyper 控制媒体、管理窗口、截图和转换简繁文字，把常用操作集中到键盘上。
 
-![Hyper 键导航](assets/hyper-keyboard.svg)
+![Hyper 键导航](assets/hyper-keyboard.png)
 
 **[在线查找快捷键](https://aste2d.github.io/macos-kit/快捷键.html)** · [下载整合包](https://github.com/aste2d/macos-kit/releases/latest)
 
