@@ -1,0 +1,260 @@
+{
+  "title": "aste2d Hyper",
+  "rules": [
+    {
+      "description": "Hyper+Space → 播放 / 暂停",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": [
+                "command",
+                "control",
+                "option",
+                "shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "consumer_key_code": "play_or_pause",
+              "repeat": false
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Hyper+, / Hyper+. → 降低 / 提高音量",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "comma",
+            "modifiers": {
+              "mandatory": [
+                "command",
+                "control",
+                "option",
+                "shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "consumer_key_code": "volume_decrement"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "period",
+            "modifiers": {
+              "mandatory": [
+                "command",
+                "control",
+                "option",
+                "shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "consumer_key_code": "volume_increment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper+M → 静音 / 取消静音",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "m",
+            "modifiers": {
+              "mandatory": [
+                "command",
+                "control",
+                "option",
+                "shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "consumer_key_code": "mute",
+              "repeat": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "⌥⇧S → Hyper+S：将所选区域拷贝到剪贴板",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "s",
+            "modifiers": {
+              "mandatory": [
+                "option",
+                "shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "s",
+              "modifiers": [
+                "command",
+                "control",
+                "option",
+                "shift"
+              ],
+              "repeat": false
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "L⇧R⇧ → ⇪",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "right_shift",
+            "modifiers": {
+              "mandatory": [
+                "left_shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "hold_down_milliseconds": 200,
+              "key_code": "caps_lock"
+            },
+            {
+              "key_code": "vk_none"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "left_shift",
+            "modifiers": {
+              "mandatory": [
+                "right_shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "hold_down_milliseconds": 200,
+              "key_code": "caps_lock"
+            },
+            {
+              "key_code": "vk_none"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "⇪~  →  ⌃⌥⇧⌘    |    ⇪   →  ~ ",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_shift",
+              "modifiers": [
+                "command",
+                "control",
+                "option"
+              ]
+            }
+          ],
+          "to_if_alone": [
+            {
+              "hold_down_milliseconds": 200,
+              "key_code": "grave_accent_and_tilde"
+            },
+            {
+              "key_code": "vk_none"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Hyper+Z → 检测显示器",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "z",
+            "modifiers": {
+              "mandatory": [
+                "command",
+                "control",
+                "option",
+                "shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "vk_none"
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "shell_command": "\"$HOME/Library/Application Support/aste2d macOS Kit/DetectDisplays\" > \"$HOME/Library/Application Support/aste2d macOS Kit/display-detection.log\" 2>&1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

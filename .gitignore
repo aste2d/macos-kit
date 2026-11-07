@@ -1,0 +1,11 @@
+.DS_Store
+Downloads/
+*.dmg
+*.pkg
+*.app/
+*.rayconfig
+*.key
+*.enc
+*.db*
+Private*/
+Installers/

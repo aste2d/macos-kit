@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSServicesStatus</key>
+	<dict>
+		<key>com.aone.keka - Keka/Send to Keka - serviceHandle</key>
+		<dict>
+			<key>key_equivalent</key>
+			<string>^Space</string>
+		</dict>
+		<key>com.mitchellh.ghostty - New Ghostty Window Here - openWindow</key>
+		<dict>
+			<key>key_equivalent</key>
+			<string>^t</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

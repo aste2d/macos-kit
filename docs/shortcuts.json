@@ -1,0 +1,278 @@
+[
+  {
+    "keys": "⌘Space",
+    "action": "打开 Raycast",
+    "source": "Raycast",
+    "note": "唤起应用与命令搜索。"
+  },
+  {
+    "keys": "⌥1",
+    "action": "访达",
+    "source": "Raycast",
+    "note": ""
+  },
+  {
+    "keys": "Hyper+P",
+    "action": "密码",
+    "source": "Raycast",
+    "note": "别名 p"
+  },
+  {
+    "keys": "⌥4",
+    "action": "音乐",
+    "source": "Raycast",
+    "note": "别名 m"
+  },
+  {
+    "keys": "Hyper+G",
+    "action": "ChatGPT",
+    "source": "Raycast",
+    "note": "别名 c"
+  },
+  {
+    "keys": "⌥2",
+    "action": "Discord",
+    "source": "Raycast",
+    "note": ""
+  },
+  {
+    "keys": "Hyper+T",
+    "action": "Ghostty",
+    "source": "Raycast",
+    "note": "别名 t"
+  },
+  {
+    "keys": "⌥3",
+    "action": "Google Chrome",
+    "source": "Raycast",
+    "note": ""
+  },
+  {
+    "keys": "Hyper+I",
+    "action": "iPhone 镜像",
+    "source": "Raycast",
+    "note": "别名 i"
+  },
+  {
+    "keys": "Hyper+V",
+    "action": "Clipboard History",
+    "source": "Raycast",
+    "note": ""
+  },
+  {
+    "keys": "Hyper+D",
+    "action": "Show Latest Download",
+    "source": "Raycast",
+    "note": ""
+  },
+  {
+    "keys": "Hyper+E",
+    "action": "Search Emoji & Symbols",
+    "source": "Raycast",
+    "note": "别名 e"
+  },
+  {
+    "keys": "⌘\\",
+    "action": "Search Files",
+    "source": "Raycast",
+    "note": "别名 f"
+  },
+  {
+    "keys": "Hyper+K",
+    "action": "Kill Process",
+    "source": "Raycast",
+    "note": "别名 kp"
+  },
+  {
+    "keys": "Hyper+B",
+    "action": "Search Menu Bar Items",
+    "source": "Raycast",
+    "note": ""
+  },
+  {
+    "keys": "Hyper+A",
+    "action": "Almost Maximize",
+    "source": "Raycast",
+    "note": "别名 a"
+  },
+  {
+    "keys": "Hyper+X",
+    "action": "Maximize",
+    "source": "Raycast",
+    "note": "别名 x"
+  },
+  {
+    "keys": "Hyper+F",
+    "action": "Toggle Fullscreen",
+    "source": "Raycast",
+    "note": ""
+  },
+  {
+    "keys": "Hyper+Enter",
+    "action": "Toggle System Appearance",
+    "source": "Raycast",
+    "note": ""
+  },
+  {
+    "keys": "Hyper+Space",
+    "action": "播放 / 暂停",
+    "source": "Karabiner",
+    "note": "系统媒体键"
+  },
+  {
+    "keys": "Hyper+M",
+    "action": "静音 / 取消静音",
+    "source": "Karabiner",
+    "note": "切换输出设备的静音状态。"
+  },
+  {
+    "keys": "Hyper+,",
+    "action": "降低音量",
+    "source": "Karabiner",
+    "note": "可长按"
+  },
+  {
+    "keys": "Hyper+.",
+    "action": "提高音量",
+    "source": "Karabiner",
+    "note": "可长按"
+  },
+  {
+    "keys": "⌥⇧S",
+    "action": "将所选区域拷贝到剪贴板",
+    "source": "Karabiner",
+    "note": "映射到 Hyper+S"
+  },
+  {
+    "keys": "按住 Caps Lock",
+    "action": "Hyper：⌃⌥⇧⌘",
+    "source": "Karabiner",
+    "note": "松开后恢复"
+  },
+  {
+    "keys": "轻点 Caps Lock",
+    "action": "反引号 `",
+    "source": "Karabiner",
+    "note": "输出反引号。"
+  },
+  {
+    "keys": "左 Shift + 右 Shift",
+    "action": "切换大写锁定",
+    "source": "Karabiner",
+    "note": "两侧 Shift 同时按下"
+  },
+  {
+    "keys": "Hyper+C",
+    "action": "智能简繁转换",
+    "source": "Smart Chinese",
+    "note": "多数简体→繁体；多数繁体→简体；同数→繁体。只作用于所选文字。"
+  },
+  {
+    "keys": "⌃Space",
+    "action": "发送到 Keka",
+    "source": "服务",
+    "note": "在 Finder 中选择文件"
+  },
+  {
+    "keys": "⌃T",
+    "action": "在此处打开 Ghostty 窗口",
+    "source": "服务",
+    "note": "需要应用提供该服务"
+  },
+  {
+    "keys": "Hyper+R",
+    "action": "截屏和录制选项",
+    "source": "macOS",
+    "note": ""
+  },
+  {
+    "keys": "⌘Esc",
+    "action": "游戏叠层",
+    "source": "macOS",
+    "note": ""
+  },
+  {
+    "keys": "⌘`",
+    "action": "将焦点移到下一个窗口",
+    "source": "macOS",
+    "note": ""
+  },
+  {
+    "keys": "Hyper+S",
+    "action": "将所选区域的图片拷贝到剪贴板",
+    "source": "macOS",
+    "note": ""
+  },
+  {
+    "keys": "⌥Tab",
+    "action": "调度中心",
+    "source": "macOS",
+    "note": ""
+  },
+  {
+    "keys": "⌥`",
+    "action": "应用程序窗口",
+    "source": "macOS",
+    "note": ""
+  },
+  {
+    "keys": "⌥⌘D",
+    "action": "打开/关闭隐藏程序坞",
+    "source": "macOS",
+    "note": ""
+  },
+  {
+    "keys": "⌥Space",
+    "action": "选择“输入法”菜单中的下一个输入法",
+    "source": "macOS",
+    "note": ""
+  },
+  {
+    "keys": "⌥⌘Space",
+    "action": "显示“聚焦”搜索",
+    "source": "macOS",
+    "note": ""
+  },
+  {
+    "keys": "Fn+⌃⌥←",
+    "action": "向左移动一个空间",
+    "source": "macOS",
+    "note": ""
+  },
+  {
+    "keys": "Fn+⌃⌥→",
+    "action": "向右移动一个空间",
+    "source": "macOS",
+    "note": ""
+  },
+  {
+    "keys": "⇧⌘/",
+    "action": "显示帮助菜单",
+    "source": "macOS",
+    "note": ""
+  },
+  {
+    "keys": "Tab",
+    "action": "Minimize（最小化窗口菜单）",
+    "source": "应用菜单",
+    "note": "在提供 Minimize 菜单项的应用中生效；按需启用。"
+  },
+  {
+    "keys": "Hyper+Z",
+    "action": "检测显示器",
+    "source": "显示器工具",
+    "note": "松开组合键后打开显示器设置并执行检测；支持简体中文和英文系统界面。"
+  },
+  {
+    "keys": "Command ↔ Option",
+    "action": "交换左右 Command 与 Option",
+    "source": "Karabiner",
+    "note": "按键导航按交换后的逻辑修饰键标注。"
+  },
+  {
+    "keys": "Print Screen",
+    "action": "Fn",
+    "source": "Karabiner",
+    "note": "适用于带有 Print Screen 键的键盘。"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Clash Verge Rev",
+    "version": "2.5.10",
+    "arch": "arm64",
+    "filename": "Clash.Verge_2.5.10_aarch64.dmg",
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.10/Clash.Verge_2.5.10_aarch64.dmg",
+    "sha256": "40d4a7da4543d75f573a5cfcc31543b0b4bf7e02caa122a9ca50654859585839",
+    "mirrors": [
+      "https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.10/Clash.Verge_2.5.10_aarch64.dmg",
+      "https://gh-proxy.org/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.10/Clash.Verge_2.5.10_aarch64.dmg"
+    ]
+  },
+  {
+    "name": "Clash Verge Rev",
+    "version": "2.5.10",
+    "arch": "x86_64",
+    "filename": "Clash.Verge_2.5.10_x64.dmg",
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.10/Clash.Verge_2.5.10_x64.dmg",
+    "sha256": "b1d6938680f3e411b5961e56591faaa92c95e9676f54ebfdfa98b7eab374023e",
+    "mirrors": [
+      "https://gh-proxy.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.10/Clash.Verge_2.5.10_x64.dmg",
+      "https://gh-proxy.org/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.10/Clash.Verge_2.5.10_x64.dmg"
+    ]
+  },
+  {
+    "name": "Mac Mouse Fix",
+    "version": "3.1.0",
+    "filename": "MacMouseFixApp.zip",
+    "url": "https://github.com/noah-nuebling/mac-mouse-fix/releases/download/3.1.0/MacMouseFixApp.zip",
+    "sha256": "afee98a91e86b287cc28c652fddefeeb02e17573af0e666d1ffa542f1025308f",
+    "mirrors": [
+      "https://gh-proxy.com/https://github.com/noah-nuebling/mac-mouse-fix/releases/download/3.1.0/MacMouseFixApp.zip",
+      "https://gh-proxy.org/https://github.com/noah-nuebling/mac-mouse-fix/releases/download/3.1.0/MacMouseFixApp.zip"
+    ]
+  },
+  {
+    "name": "Karabiner-Elements",
+    "version": "16.3.0",
+    "filename": "Karabiner-Elements-16.3.0.dmg",
+    "url": "https://github.com/pqrs-org/Karabiner-Elements/releases/download/v16.3.0/Karabiner-Elements-16.3.0.dmg",
+    "sha256": "19cce7bed3d48a722242ca683bd1bae406b6a87fed520728d1c91dee175b75e4",
+    "mirrors": [
+      "https://gh-proxy.com/https://github.com/pqrs-org/Karabiner-Elements/releases/download/v16.3.0/Karabiner-Elements-16.3.0.dmg",
+      "https://gh-proxy.org/https://github.com/pqrs-org/Karabiner-Elements/releases/download/v16.3.0/Karabiner-Elements-16.3.0.dmg"
+    ]
+  },
+  {
+    "name": "SyncClipboard",
+    "version": "3.3.3",
+    "arch": "arm64",
+    "filename": "SyncClipboard_macos_arm64.dmg",
+    "url": "https://github.com/Jeric-X/SyncClipboard/releases/download/v3.3.3/SyncClipboard_macos_arm64.dmg",
+    "sha256": "be20dd03baecd5e03eefaf67a3307c8f5f5542243e78a985cae8815e80bd0b31",
+    "mirrors": [
+      "https://gh-proxy.com/https://github.com/Jeric-X/SyncClipboard/releases/download/v3.3.3/SyncClipboard_macos_arm64.dmg",
+      "https://gh-proxy.org/https://github.com/Jeric-X/SyncClipboard/releases/download/v3.3.3/SyncClipboard_macos_arm64.dmg"
+    ]
+  },
+  {
+    "name": "SyncClipboard",
+    "version": "3.3.3",
+    "arch": "x86_64",
+    "filename": "SyncClipboard_macos_x64.dmg",
+    "url": "https://github.com/Jeric-X/SyncClipboard/releases/download/v3.3.3/SyncClipboard_macos_x64.dmg",
+    "sha256": "4212d2e9f9e0eb6717eb7c8da05e14a0c77ea8f3466df8b65ef2965d53d431f3",
+    "mirrors": [
+      "https://gh-proxy.com/https://github.com/Jeric-X/SyncClipboard/releases/download/v3.3.3/SyncClipboard_macos_x64.dmg",
+      "https://gh-proxy.org/https://github.com/Jeric-X/SyncClipboard/releases/download/v3.3.3/SyncClipboard_macos_x64.dmg"
+    ]
+  },
+  {
+    "name": "Smart Chinese",
+    "version": "1.1.0",
+    "filename": "Smart-Chinese-1.1.0-macOS-universal.zip",
+    "url": "https://github.com/aste2d/smart-chinese/releases/download/v1.1.0/Smart-Chinese-1.1.0-macOS-universal.zip",
+    "sha256": "b9327aed877c83d54ba7f123627a2ac043fc12415c93f80c4fe58e65783fabd2",
+    "mirrors": [
+      "https://gh-proxy.com/https://github.com/aste2d/smart-chinese/releases/download/v1.1.0/Smart-Chinese-1.1.0-macOS-universal.zip",
+      "https://gh-proxy.org/https://github.com/aste2d/smart-chinese/releases/download/v1.1.0/Smart-Chinese-1.1.0-macOS-universal.zip"
+    ]
+  }
+]
