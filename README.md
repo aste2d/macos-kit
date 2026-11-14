@@ -13,6 +13,7 @@ mindmap
   root((Mac 快速进入工作流))
     一个顺手的全局入口
       Caps Lock 在左手小指附近
+      Enter 在右手小指附近，轻点回车
       按住即 Hyper：⌃⌥⇧⌘
       用较少冲突的组合承载大量操作
     字母对应功能含义
@@ -38,7 +39,7 @@ mindmap
 
 ## 快捷键列表
 
-**Hyper = ⌃⌥⇧⌘**，按住 Caps Lock 后再按对应键。字母助记结合了功能含义与个人习惯，可在 Karabiner、Raycast 和系统设置中调整。
+**Hyper = ⌃⌥⇧⌘**，按住 Caps Lock 或 Enter 后再按对应键。字母助记结合了功能含义与个人习惯，可在 Karabiner、Raycast 和系统设置中调整。
 
 ### Hyper 全局操作
 
@@ -79,6 +80,8 @@ mindmap
 | ⌥⇧S | 将所选区域拷贝到剪贴板 | Karabiner |
 | 按住 Caps Lock | Hyper：⌃⌥⇧⌘ | Karabiner |
 | 轻点 Caps Lock | 反引号（&#96;） | Karabiner |
+| 按住 Enter 再按其他键 | Hyper：⌃⌥⇧⌘ | Karabiner |
+| 轻点 Enter | 回车 | Karabiner |
 | 左 Shift + 右 Shift | 切换大写锁定 | Karabiner |
 | ⌃Space | 发送到 Keka（选中文件） | 服务 |
 | ⌃T | 在所选位置打开 Ghostty 终端 | 服务 |
@@ -112,7 +115,7 @@ Raycast v2 的系统与芯片要求见[官方说明](https://www.raycast.com/new
 
 1. 下载并安装下方所需软件。Hyper 快捷键需要 Karabiner-Elements；应用启动、窗口管理与剪贴板搜索需要对应系统版本的 Raycast。
 2. 显示器检测工具需要 Apple Command Line Tools。尚未安装时运行 `xcode-select --install`，按系统提示完成安装。
-3. 在整合包目录运行 `zsh setup.command --apply`，启用键盘与系统快捷键。按应用提示授予所需权限；系统快捷键如未立即生效，注销后重新登录。
+3. 在整合包目录运行 `zsh setup.command --apply`，启用键盘与系统快捷键，同时将「系统设置 → 键盘 → 听写 → 快捷键」设为「关闭」。按应用提示授予所需权限；系统快捷键如未立即生效，注销后重新登录。
 4. 按 [Raycast 快捷键表](docs/raycast.md) 绑定应用和命令。主快捷键为 ⌘Space。
 5. 解压 Smart Chinese，运行其中的 `install.command`。安装 Keka 和 Ghostty 后，可运行 `zsh setup.command --services` 启用对应的系统服务快捷键。
 
@@ -136,7 +139,7 @@ Clash Verge 可双击 `download-clash.command` 下载，也可在终端执行 `z
 
 ## 使用
 
-按住 Caps Lock 即为 Hyper（⌃⌥⇧⌘）。轻点 Caps Lock 输出反引号，同时按下两侧 Shift 切换大写锁定。
+按住 Caps Lock 或 Enter 即可组合 Hyper（⌃⌥⇧⌘）快捷键。轻点 Caps Lock 输出反引号，轻点 Enter 正常回车，同时按下两侧 Shift 切换大写锁定。
 
 **按键位置**：默认所有键盘交换左右 Command 与 Option；Apple 键盘作为例外，内置键盘及外接 Apple 键盘均保持原键位。F3 映射为 Globe（Fn），Print Screen 保持原功能；“将 F1–F12 用作标准功能键”设为 Off。键盘互换规则位于 Karabiner 的 Complex Modifications，可单独关闭。
 

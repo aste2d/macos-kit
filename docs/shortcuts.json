@@ -156,6 +156,18 @@
     "note": "输出反引号。"
   },
   {
+    "keys": "按住 Enter 再按其他键",
+    "action": "Hyper：⌃⌥⇧⌘",
+    "source": "Karabiner",
+    "note": "可用右手按住 Enter 来触发 Hyper 组合键。"
+  },
+  {
+    "keys": "轻点 Enter",
+    "action": "回车",
+    "source": "Karabiner",
+    "note": ""
+  },
+  {
     "keys": "左 Shift + 右 Shift",
     "action": "切换大写锁定",
     "source": "Karabiner",
