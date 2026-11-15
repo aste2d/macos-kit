@@ -1109,7 +1109,7 @@
         ]
       },
       {
-        "description": "Reverse vertical scroll for non-Apple mice",
+        "description": "Reverse vertical scrolling from non-Apple devices",
         "manipulators": [
           {
             "type": "mouse_basic",
@@ -1118,14 +1118,6 @@
             ],
             "conditions": [
               {
-                "type": "device_if",
-                "identifiers": [
-                  {
-                    "is_pointing_device": true
-                  }
-                ]
-              },
-              {
                 "type": "device_unless",
                 "identifiers": [
                   {
@@ -1133,6 +1125,9 @@
                   },
                   {
                     "vendor_id": 76
+                  },
+                  {
+                    "is_touch_bar": true
                   },
                   {
                     "vendor_id": 1133,

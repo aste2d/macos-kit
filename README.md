@@ -149,7 +149,7 @@ Clash Verge 可双击 `download-clash.command` 下载，也可在终端执行 `z
 
 **检测显示器**：按 Hyper+Z 后松开组合键，工具会打开系统“显示器”设置并执行“检测显示器”。需要辅助功能权限，目前支持简体中文和英文系统界面。
 
-**鼠标滚轮**由一条 Karabiner 规则反转非 Apple 鼠标的垂直滚轮。整合包会自动启用新接入的鼠标，有线和无线连接都适用。Apple 鼠标、内置触控板及已识别的第三方触控板沿用系统滚动方向。其他触控板可在 Karabiner 的 Devices 中关闭事件修改。详见[鼠标与触控板设置](docs/mouse-scroll.md)。
+**滚动方向**由一条 Karabiner 规则反转已接管的非 Apple 设备发出的垂直滚动，适用于鼠标、轨迹球和会发送滚动事件的键盘等设备。Apple 设备、Mac 内置触控板及已收录的第三方触控板的滚动方向由 macOS 处理。其他触控板可在 Karabiner 的 Devices 中关闭事件修改。详见[设备滚动设置](docs/mouse-scroll.md)。
 
 **文件服务**：在 Finder 中选择文件后，⌃Space 发送到 Keka；⌃T 在所选位置打开 Ghostty 窗口。服务只在适用的选择对象上显示。
 

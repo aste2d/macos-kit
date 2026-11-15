@@ -1,6 +1,8 @@
-# 鼠标与触控板
+# 设备滚动设置
 
-整合包在 Karabiner-Elements 16.3.0 中自动启用新接入的非 Apple 鼠标，并反转垂直滚轮。Apple 鼠标和 Mac 内置触控板沿用 macOS 的滚动方向。想让触控板使用自然滚动，可在系统设置的触控板页面打开「自然滚动」。[Karabiner 设备设置](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-devices/)
+规则反转由 Karabiner 接管的非 Apple 设备发出的垂直滚动。只要设备发送标准垂直滚动事件，有线和无线鼠标、轨迹球、带滚轮的键盘或其他控制器都可以匹配。Apple 设备、Mac 内置触控板及下表收录的第三方触控板的滚动方向由 macOS 处理。
+
+整合包会自动接管 Karabiner 识别到的非 Apple 指针设备，例如新接入的鼠标和轨迹球。如果某个键盘或控制器通过单独的接口发送滚动，可在 **Devices** 中为该接口打开 **Modify events**。[Karabiner 设备设置](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-devices/)
 
 ## 第三方触控板例外
 
@@ -18,4 +20,4 @@
 
 如果触控板仍然反向滚动，在 **Karabiner-Elements → Devices** 找到相应设备，关闭 **Modify events**。可在 **Karabiner-EventViewer → Devices** 查看设备 ID。对于 T650 等使用共享接收器的型号，请先检查系统显示的是触控板自己的 ID 还是接收器的 ID。关闭共享接收器的 **Modify events** 也会影响通过它连接的鼠标。[Karabiner 设备匹配说明](https://karabiner-elements.pqrs.org/docs/json/complex-modifications-manipulator-definition/conditions/device/)
 
-如果只导入独立规则文件，可在 **Devices** 中为要反转的鼠标打开 **Modify events**。设备自带的垂直反转开关设为关闭，即可由这条规则统一处理。
+如果只导入独立规则文件，可在 **Devices** 中为需要反转滚动的设备打开 **Modify events**。设备自带的垂直反转开关设为关闭，即可由这条规则统一处理。
