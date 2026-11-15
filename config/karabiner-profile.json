@@ -1,6 +1,7 @@
 {
   "name": "aste2d macOS Kit",
   "selected": true,
+  "ignore_pointing_device_events_by_default": false,
   "complex_modifications": {
     "rules": [
       {
@@ -1108,7 +1109,7 @@
         ]
       },
       {
-        "description": "Reverse mouse vertical scroll wheel",
+        "description": "Reverse vertical scroll for non-Apple mice",
         "manipulators": [
           {
             "type": "mouse_basic",
@@ -1123,6 +1124,45 @@
                     "is_pointing_device": true
                   }
                 ]
+              },
+              {
+                "type": "device_unless",
+                "identifiers": [
+                  {
+                    "vendor_id": 1452
+                  },
+                  {
+                    "vendor_id": 76
+                  },
+                  {
+                    "vendor_id": 1133,
+                    "product_id": 45068
+                  },
+                  {
+                    "vendor_id": 1133,
+                    "product_id": 47872
+                  },
+                  {
+                    "vendor_id": 1133,
+                    "product_id": 47873
+                  },
+                  {
+                    "vendor_id": 1133,
+                    "product_id": 16641
+                  },
+                  {
+                    "vendor_id": 1160,
+                    "product_id": 32
+                  },
+                  {
+                    "vendor_id": 1160,
+                    "product_id": 34
+                  },
+                  {
+                    "vendor_id": 7645,
+                    "product_id": 10265
+                  }
+                ]
               }
             ]
           }
@@ -1131,7 +1171,127 @@
     ]
   },
   "simple_modifications": [],
-  "devices": [],
+  "devices": [
+    {
+      "identifiers": {
+        "is_pointing_device": true,
+        "vendor_id": 1133,
+        "product_id": 45068
+      },
+      "ignore": true
+    },
+    {
+      "identifiers": {
+        "is_pointing_device": true,
+        "is_keyboard": true,
+        "vendor_id": 1133,
+        "product_id": 45068
+      },
+      "ignore": true
+    },
+    {
+      "identifiers": {
+        "is_pointing_device": true,
+        "vendor_id": 1133,
+        "product_id": 47872
+      },
+      "ignore": true
+    },
+    {
+      "identifiers": {
+        "is_pointing_device": true,
+        "is_keyboard": true,
+        "vendor_id": 1133,
+        "product_id": 47872
+      },
+      "ignore": true
+    },
+    {
+      "identifiers": {
+        "is_pointing_device": true,
+        "vendor_id": 1133,
+        "product_id": 47873
+      },
+      "ignore": true
+    },
+    {
+      "identifiers": {
+        "is_pointing_device": true,
+        "is_keyboard": true,
+        "vendor_id": 1133,
+        "product_id": 47873
+      },
+      "ignore": true
+    },
+    {
+      "identifiers": {
+        "is_pointing_device": true,
+        "vendor_id": 1133,
+        "product_id": 16641
+      },
+      "ignore": true
+    },
+    {
+      "identifiers": {
+        "is_pointing_device": true,
+        "is_keyboard": true,
+        "vendor_id": 1133,
+        "product_id": 16641
+      },
+      "ignore": true
+    },
+    {
+      "identifiers": {
+        "is_pointing_device": true,
+        "vendor_id": 1160,
+        "product_id": 32
+      },
+      "ignore": true
+    },
+    {
+      "identifiers": {
+        "is_pointing_device": true,
+        "is_keyboard": true,
+        "vendor_id": 1160,
+        "product_id": 32
+      },
+      "ignore": true
+    },
+    {
+      "identifiers": {
+        "is_pointing_device": true,
+        "vendor_id": 1160,
+        "product_id": 34
+      },
+      "ignore": true
+    },
+    {
+      "identifiers": {
+        "is_pointing_device": true,
+        "is_keyboard": true,
+        "vendor_id": 1160,
+        "product_id": 34
+      },
+      "ignore": true
+    },
+    {
+      "identifiers": {
+        "is_pointing_device": true,
+        "vendor_id": 7645,
+        "product_id": 10265
+      },
+      "ignore": true
+    },
+    {
+      "identifiers": {
+        "is_pointing_device": true,
+        "is_keyboard": true,
+        "vendor_id": 7645,
+        "product_id": 10265
+      },
+      "ignore": true
+    }
+  ],
   "virtual_hid_keyboard": {
     "keyboard_type_v2": "ansi"
   },
