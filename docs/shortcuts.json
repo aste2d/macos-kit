@@ -270,6 +270,12 @@
     "note": "在提供 Minimize 菜单项的应用中生效；按需启用。"
   },
   {
+    "keys": "Hyper+O",
+    "action": "打开隐私与安全",
+    "source": "Karabiner",
+    "note": "直达「安全性」区域，出现「仍要打开」时可手动点击。"
+  },
+  {
     "keys": "Hyper+Z",
     "action": "检测显示器",
     "source": "显示器工具",

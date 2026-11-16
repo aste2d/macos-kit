@@ -65,6 +65,7 @@ mindmap
 | Hyper+C | 智能简繁转换 | Smart Chinese |
 | Hyper+R | 截屏和录制选项 | macOS |
 | Hyper+S | 将所选区域的图片拷贝到剪贴板 | macOS |
+| Hyper+O | 打开隐私与安全的「安全性」区域 | Karabiner |
 | Hyper+Z | 检测显示器 | 显示器工具 |
 
 ### 入口、系统与当前对象

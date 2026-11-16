@@ -941,6 +941,33 @@
       ]
     },
     {
+      "description": "Hyper+O → 打开隐私与安全性",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "mandatory": [
+                "command",
+                "control",
+                "option",
+                "shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to_after_key_up": [
+            {
+              "shell_command": "/usr/bin/open 'x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Security'"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "Hyper+Z → 检测显示器",
       "manipulators": [
         {
