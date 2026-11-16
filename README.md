@@ -166,3 +166,5 @@ Clash Verge 可双击 `download-clash.command` 下载，也可在终端执行 `z
 配置与工具代码使用 MIT 许可。各应用使用自己的许可，部分软件提供付费功能。
 
 [aste2d](https://github.com/aste2d/)
+
+喜欢这个项目？欢迎[请我喝杯咖啡](https://afdian.com/a/aste2d/plan)，支持后续维护。
