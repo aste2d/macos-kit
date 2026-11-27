@@ -5,7 +5,7 @@
   "complex_modifications": {
     "rules": [
       {
-        "description": "Standard F1–F12 in Java and remote desktop apps",
+        "description": "[App] F1–F12 在 Java / 远程控制中使用标准功能键",
         "manipulators": [
           {
             "type": "basic",
@@ -694,7 +694,7 @@
         ]
       },
       {
-        "description": "Hyper+Space → 播放 / 暂停",
+        "description": "[Media] Hyper+Space = 播放 / 暂停",
         "manipulators": [
           {
             "from": {
@@ -722,7 +722,7 @@
         ]
       },
       {
-        "description": "Hyper+, / Hyper+. → 降低 / 提高音量",
+        "description": "[Media] Hyper+< / > = 音量 − / +",
         "manipulators": [
           {
             "type": "basic",
@@ -771,7 +771,7 @@
         ]
       },
       {
-        "description": "Hyper+M → 静音 / 取消静音",
+        "description": "[Media] Hyper+M = 静音切换",
         "manipulators": [
           {
             "type": "basic",
@@ -799,7 +799,66 @@
         ]
       },
       {
-        "description": "⌥⇧S → Hyper+S：将所选区域拷贝到剪贴板",
+        "description": "[System] Hyper+O = 打开隐私与安全设置",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "o",
+              "modifiers": {
+                "mandatory": [
+                  "command",
+                  "control",
+                  "option",
+                  "shift"
+                ],
+                "optional": [
+                  "caps_lock"
+                ]
+              }
+            },
+            "to_after_key_up": [
+              {
+                "shell_command": "/usr/bin/open 'x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Security'"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "[System] Hyper+Z = 检测显示器",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "z",
+              "modifiers": {
+                "mandatory": [
+                  "command",
+                  "control",
+                  "option",
+                  "shift"
+                ],
+                "optional": [
+                  "caps_lock"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "vk_none"
+              }
+            ],
+            "to_after_key_up": [
+              {
+                "shell_command": "\"$HOME/Library/Application Support/aste2d macOS Kit/DetectDisplays\" > \"$HOME/Library/Application Support/aste2d macOS Kit/display-detection.log\" 2>&1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "[System] ⌥⇧S = Hyper+S · 选区截图到剪贴板",
         "manipulators": [
           {
             "from": {
@@ -831,7 +890,7 @@
         ]
       },
       {
-        "description": "L⇧R⇧ → ⇪",
+        "description": "[Caps] L⇧+R⇧ = 大写锁定切换",
         "manipulators": [
           {
             "from": {
@@ -882,7 +941,7 @@
         ]
       },
       {
-        "description": "⇪~  →  ⌃⌥⇧⌘    |    ⇪   →  ~ ",
+        "description": "[Hyper] ⇪ = ⌃⌥⇧⌘ ; ~ if alone",
         "manipulators": [
           {
             "from": {
@@ -917,7 +976,7 @@
         ]
       },
       {
-        "description": "Enter → Hyper（轻点回车）",
+        "description": "[Hyper] ⏎ = ⌃⌥⇧⌘ ; ⏎ if alone",
         "manipulators": [
           {
             "type": "basic",
@@ -944,66 +1003,7 @@
         ]
       },
       {
-        "description": "Hyper+O → 打开隐私与安全性",
-        "manipulators": [
-          {
-            "type": "basic",
-            "from": {
-              "key_code": "o",
-              "modifiers": {
-                "mandatory": [
-                  "command",
-                  "control",
-                  "option",
-                  "shift"
-                ],
-                "optional": [
-                  "caps_lock"
-                ]
-              }
-            },
-            "to_after_key_up": [
-              {
-                "shell_command": "/usr/bin/open 'x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Security'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "description": "Hyper+Z → 检测显示器",
-        "manipulators": [
-          {
-            "type": "basic",
-            "from": {
-              "key_code": "z",
-              "modifiers": {
-                "mandatory": [
-                  "command",
-                  "control",
-                  "option",
-                  "shift"
-                ],
-                "optional": [
-                  "caps_lock"
-                ]
-              }
-            },
-            "to": [
-              {
-                "key_code": "vk_none"
-              }
-            ],
-            "to_after_key_up": [
-              {
-                "shell_command": "\"$HOME/Library/Application Support/aste2d macOS Kit/DetectDisplays\" > \"$HOME/Library/Application Support/aste2d macOS Kit/display-detection.log\" 2>&1"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "description": "Swap Command and Option except on Apple keyboards",
+        "description": "[Device] ⌘ ⇄ ⌥ ; Apple设备除外",
         "manipulators": [
           {
             "type": "basic",
@@ -1136,7 +1136,7 @@
         ]
       },
       {
-        "description": "Reverse vertical scrolling from non-Apple devices",
+        "description": "[Device] 反转垂直滚动 ; Apple设备除外",
         "manipulators": [
           {
             "type": "mouse_basic",
